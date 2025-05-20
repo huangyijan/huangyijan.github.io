@@ -1,16 +1,3 @@
 import comp from "/Users/yijian/Desktop/personal/vuepress-starter/docs/.vuepress/.temp/pages/webrtc/index.html.vue"
-const data = JSON.parse("{\"path\":\"/webrtc/\",\"title\":\"WebRTC系列\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"webrtc/README.md\"}")
+const data = JSON.parse("{\"path\":\"/webrtc/\",\"title\":\"WebRTC系列\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1747649244000,\"contributors\":[{\"name\":\"yijian\",\"username\":\"yijian\",\"email\":\"huangyijian@bonc.com.cn\",\"commits\":1,\"url\":\"https://github.com/yijian\"}],\"changelog\":[{\"hash\":\"b77da6ff88a31fd78905962ba14b811fdf19dfb5\",\"time\":1747649244000,\"email\":\"huangyijian@bonc.com.cn\",\"author\":\"yijian\",\"message\":\"feat: 初始版本\"}]},\"filePathRelative\":\"webrtc/README.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

@@ -1,0 +1,3 @@
+import comp from "/Users/yijian/Desktop/personal/vuepress-starter/docs/.vuepress/.temp/pages/webrtc/code/index.html.vue"
+const data = JSON.parse("{\"path\":\"/webrtc/code/\",\"title\":\"入口源码分析\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1768739770000,\"contributors\":[{\"name\":\"yijian\",\"username\":\"yijian\",\"email\":\"huangyijian@bonc.com.cn\",\"commits\":1,\"url\":\"https://github.com/yijian\"}],\"changelog\":[{\"hash\":\"8639ab87fd2acd06d88b2fa11e9a01a642eace86\",\"time\":1768739770000,\"email\":\"huangyijian@bonc.com.cn\",\"author\":\"yijian\",\"message\":\"feat: add yapi api dist folder\"}]},\"filePathRelative\":\"webrtc/code/README.md\"}")
+export { comp, data }
